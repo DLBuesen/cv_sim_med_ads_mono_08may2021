@@ -1,0 +1,31 @@
+# Minimum Computer Specifications
+- At least 8 GB of RAM
+- CPU equivalent to at least i5 generation 8
+- 50 GB free on the hard drive. Solid state drives are not required but will have better performance.
+- Stable internet connection to be able to download the containers, which can be as large at 9.5 GB (i.e. preferable use DSL cable rather than WiFi).
+
+# Operating System Specifications
+- Updated ubuntu 18.04
+- Local (i.e. not a web or cloud based) installation of Open Office Calc
+- Admin level (i.e. sudo) privileges.
+
+# Back up Your Data
+- Back up your data to an external device, i.e. not a separate partition on the same hard-drive.
+- This is standard good practice and should always be done before starting any installation or making any major changes to your PC.
+
+# General Prerequisite Steps
+- Docker engine must be installed to be able to run linux based docker container images. Once installed, it won't be necessary to repeat these installation steps every time a new linux container based app is installed. Instructions for installation via terminal commands can be found [here]()
+
+# Installing and Uninstalling the App
+- Download the project folder from this repositry and unzip to any location on your computer.
+- Run the docker container installation script in the "docker" folder. Signing into your docker account can be done directly during the running of the scripts via keyboard entry if not already done.
+- After setting the paths for the parameter and data export excel files, run the simulation with the preset parameter values. Verify that the resulting plot matches the "goldStandard" image in the project folder.
+- Change parameters, rerun the simulation, and confirm the connections to the parameter input and data export excel files are working. In open office calc, the export file can remain open and is refreshed via file -> reload.
+- To uninstall, run the uninstallation script in the "containers" folder, and follow the instruction in the prompt to verify that the container has been removed. Then move the project folder to the recycling bin.
+
+# Questions or Issues
+- This is a "work in progress", so the identification and resolution of issues will make it better.
+- Please post any questions or techical problems in the "issues" part of this project, and efforts will be made to answer them as quickly as possible.
+- Posting there requires that you register a free github.com account.
+
+
