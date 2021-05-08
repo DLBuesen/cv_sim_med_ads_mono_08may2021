@@ -14,7 +14,7 @@
 - This is standard good practice and should always be done before starting any installation or making any major changes to your PC.
 
 # General Prerequisite Steps
-- Docker engine must be installed to be able to run linux based docker container images. Once installed, it won't be necessary to repeat these installation steps every time a new linux container based app is installed. - Docker engine must be installed to be able to run linux based docker container images. Once installed, it won't be necessary to repeat these installation steps every time a new linux container based app is installed. Instructions for installation on ubuntu can be found in the Docker software [documentation](https://docs.docker.com/engine/install/ubuntu/).
+- Docker engine must be installed to be able to run docker container images. Instructions for installation of docker engine for the ubuntu operating system can be found in the Docker software [documentation](https://docs.docker.com/engine/install/ubuntu/).
 
 # Installing and Uninstalling the App
 - Download the project folder from this repositry and unzip to any location on your computer.
