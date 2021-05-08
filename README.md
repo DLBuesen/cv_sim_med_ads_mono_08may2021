@@ -22,9 +22,11 @@
 - A demo of the app is shown in a [video] (reference) for running the app on a windows 10 operating system.
 
 # Operating Systems and Installation
-- The app can run on either windows 10 or ubuntu 18.04 LTS operating systems. However, due to time constraints, documentation and support is focused on windows 10 systems.
-- The core of the simulation is carried out in a Docker Linux-based Container. Therefore, on windows 10 systems, installation of docker desktop is required and must be configured for using linux containers via WSL 2. On Ubuntu 18.04, docker engine must be installed. Registration for a free docker account is also required.
-- The graphical user interface of the app requires for the host operating system to share screen infrastructure. Therefore, on Windows 10 systems, installation of XLaunch is required, and a session must be opened with access control disabled so that docker container can access the screen. Additionally, the virtual IP address of the system must be provided; this is included in the startup script but requires manual input from the end-user. On Ubuntu 18.04 systems, the commands for screen resource sharing are built into the shell scripts and do not require manual input.
+- The app can be run from Windows 10 or from Ubuntu 18.04 LTS.
+- The core of the simulation is carried out in a common Docker Container, which is used regardless of the host operating system. Therefore, installation of docker is required. It is also necessary to register for a free docker account. For Windows systems, WSL 2 must be installed and docker must be configured to run linux-based containers.
+- The graphical user interface of the app requires for the host operating system to share screen infrastructure. Therefore, on Windows 10 systems, installation of XLaunch is required. However, this is not required on Linux 18.04 systems.
+- It is recommended that the installation of the prerequisites for this app (docker and xLaunch) be performed by IT-support personnel or by advanced PC users (i.e. comfortable going into bios to change settings, using the command line, resolution of system-specific issues that might arise via google search and some troubleshooting).
+- Installation and use of the app itself does not require any specialized computer knowledge/interest once the prerequisites are fulfulled.
 - Additional installation instructions which are operating system specific can be found within this project for [Windows 10] (ref) and for [Ubuntu 18.04] (ref).
 
 # License
