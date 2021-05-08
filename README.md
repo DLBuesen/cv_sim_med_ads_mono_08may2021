@@ -11,7 +11,7 @@
 - To explore how secondary plots (i.e. plots based on peak currents) can be affected by these changes.
 
 # Typical Workflow and Results
-- The project folder that is downloaded from here and extracted to the desktop is shared with the app in the container.
+- The project folder that is downloaded from here and extracted to the host computer is shared with the app in the container.
 - If applicable, start up prerequiste supporting software (i.e. starting XLaunch).
 - Parameters are entered into the included excel file template and saved.
 - When starting the app, the location of the parameter and data export files must be confirmed. This only needs to be done once per session, or when wanting to reset the simulation number back to 1 (i.e. preparing for an overlay plot).
