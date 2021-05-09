@@ -14,13 +14,16 @@ gnome-terminal --tab -- bash -c '\
 	echo "Uninstalling the image...";\
 	echo ;\
 	sleep 3;\
-	docker rmi --force d26f1101205c;\
+	docker rmi dlbuesen/cv_sim_med_ads_mono_08may2021:layer05;\
 	sleep 3;\
 	echo ;\
 	echo "Confirming uninstallation of the docker image...";\
 	echo ;\
 	sleep 5;\
-	echo "Docker image ID d26f1101205c from repository dlbuesen/cv_sim_med_ads_mono_08may2021 with tag layer05 should appear in the list of images below";\
+	echo "Docker image from repository;\
+	echo "dlbuesen/cv_sim_med_ads_mono_08may2021";\
+ 	echo "with tag layer05;\
+	echo "should not appear in the list of images below";\
 	echo ;\
 	docker images;\
 	echo ;\
