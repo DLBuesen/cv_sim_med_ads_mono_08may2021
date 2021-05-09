@@ -28,9 +28,4 @@
 - To uninstall, run the uninstallation script in the "containers" folder, and follow the instruction in the prompt to verify that the container has been removed.
 - Move the project folder to the recycling bin.
 
-# Questions or Issues
-- This is a "work in progress", so the identification and resolution of issues will make it better.
-- Please post any questions or techical problems in the "issues" part of this project, and efforts will be made to answer them as quickly as possible.
-- Posting there requires that you register a free github.com account.
-
 
