@@ -16,7 +16,7 @@
 # App Prerequisites
 - Docker engine must be installed to be able to run docker container images. Instructions for installation of docker engine for the ubuntu operating system can be found in the Docker software [documentation](https://docs.docker.com/engine/install/ubuntu/).
 - A free docker account must be registered.
-- For convenience, Uinux 18.04 can be configured to run bash scripts via double-click. However, this is not required for using the app.
+- For convenience, Ubuntu 18.04 can be configured to run bash scripts via double-click. However, this is not required for using the app.
 
 # Installing the App
 - Download the project folder from this repositry and unzip to any location on your computer.
