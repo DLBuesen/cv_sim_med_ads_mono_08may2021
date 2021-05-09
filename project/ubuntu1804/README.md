@@ -16,16 +16,17 @@
 # App Prerequisites
 - Docker engine must be installed to be able to run docker container images. Instructions for installation of docker engine for the ubuntu operating system can be found in the Docker software [documentation](https://docs.docker.com/engine/install/ubuntu/).
 - A free docker account must be registered.
-- For convenience, linux 18.04 can be configured to run bash scripts via double-click. However, this is not required for using the app.
+- For convenience, Uinux 18.04 can be configured to run bash scripts via double-click. However, this is not required for using the app.
 
 # Installing the App
 - Download the project folder from this repositry and unzip to any location on your computer.
-- Run the docker container installation script in the "docker" folder. Signing into your docker account can be done directly during the running of the scripts via keyboard entry if not already done.
+- Run the docker container installation script in the "docker" folder. Signing into your docker account can be done directly during the running of the scripts via keyboard entry if not already done. Any Matlab-based app requires the use of Matlab runtime, which is unfortunately over 9GB in size. Therefore, installation of the container might take as long as 10 minutes.
 - After setting the paths for the parameter and data export excel files, run the simulation with the preset parameter values. Verify that the resulting plot matches the "goldStandard" image in the project folder.
 - Change parameters, rerun the simulation, and confirm the connections to the parameter input and data export excel files are working. In open office calc, the export file can remain open and is refreshed via file -> reload.
 
 # Uninstalling the App
-- To uninstall, run the uninstallation script in the "containers" folder, and follow the instruction in the prompt to verify that the container has been removed. Then move the project folder to the recycling bin.
+- To uninstall, run the uninstallation script in the "containers" folder, and follow the instruction in the prompt to verify that the container has been removed.
+- Move the project folder to the recycling bin.
 
 # Questions or Issues
 - This is a "work in progress", so the identification and resolution of issues will make it better.
