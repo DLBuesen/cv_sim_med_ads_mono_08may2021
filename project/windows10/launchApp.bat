@@ -41,7 +41,19 @@ echo The entered IPv4 address is %IPv4%
 
 :: Run the container
 
-docker run --rm --privileged -ti --env DISPLAY=%IPv4%:00 -p 127.0.0.1:8000:8000 -v "%cd%":/home/fenics/shared -v "%cd%":/project -w / dlbuesen/cv_sim_med_ads_mono_08may2021:layer04 ./launchApp.sh'
+docker run --rm -ti --env DISPLAY=%IPv4%:00 -p 127.0.0.1:8000:8000 -v "%cd%":/home/fenics/shared -v "%cd%":/project -w / dlbuesen/cv_sim_med_ads_mono_08may2021:layer04 bash
+
+:: docker run --rm --privileged -it --env DISPLAY=%IPv4%:00 -v "%cd%":/project dlbuesen/cv_sim_med_ads_mono_08may2021:layer04 ./launchApp.sh
+
+:: docker run --rm --privileged -it --env DISPLAY=%IPv4%:00 -v "%cd%":/project dlbuesen/cv_sim_med_ads_mono_08may2021:layer04 bash
+
+:: docker run --rm --privileged -it --env DISPLAY=%IPv4%:00 -v "%cd%":/project -v "%cd%":/home/fenics/shared -w / dlbuesen/cv_sim_med_ads_mono_08may2021:layer04 bash
+
+:: cd /project/src
+
+:: ./run_standaloneApp.sh /usr/local/MATLAB/MATLAB_Runtime/v910
+
+:: docker run --rm --privileged -ti --env DISPLAY=%IPv4%:00 -p 127.0.0.1:8000:8000 -v "%cd%":/home/fenics/shared -v "%cd%":/project -w / dlbuesen/cv_sim_med_ads_mono_08may2021:layer04 ./launchApp.sh'
 
 :: docker run --rm -it --env DISPLAY=%IPv4%:00 -v "%cd%":/project -v "%cd%":/home/fenics/shared -w / dlbuesen/cv_sim_med_ads_mono_08may2021:layer04 bash
 

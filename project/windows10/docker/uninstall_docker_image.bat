@@ -21,7 +21,7 @@ timeout 3
 echo Uninstalling the docker container image...
 echo.
 
-docker docker rmi --force 8d3c6811a644
+docker rmi --force 8d3c6811a644
 
 timeout 3
 echo Listing the installed docker images on the system...
