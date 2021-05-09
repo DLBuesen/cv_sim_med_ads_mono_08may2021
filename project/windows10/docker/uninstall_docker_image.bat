@@ -21,7 +21,7 @@ timeout 3
 echo Uninstalling the docker container image...
 echo.
 
-docker rmi --force 8d3c6811a644
+docker rmi --force d26f1101205c
 
 timeout 3
 echo Listing the installed docker images on the system...
@@ -32,9 +32,9 @@ docker images
 
 timeout 3
 
-echo Docker image with ID "8d3c6811a644"
+echo Docker image with ID "d26f1101205c"
 echo from repository "dlbuesen/cv_sim_med_ads_mono_08may2021"
-echo with tag "layer04"
+echo with tag "layer05"
 echo should not appear in the list of images above
 echo.
 
