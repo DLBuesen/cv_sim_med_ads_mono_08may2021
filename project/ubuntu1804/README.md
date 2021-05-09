@@ -13,14 +13,18 @@
 - Back up your data to an external device, i.e. not a separate partition on the same hard-drive.
 - This is standard good practice and should always be done before starting any installation or making any major changes to your PC.
 
-# General Prerequisite Steps
+# App Prerequisites
 - Docker engine must be installed to be able to run docker container images. Instructions for installation of docker engine for the ubuntu operating system can be found in the Docker software [documentation](https://docs.docker.com/engine/install/ubuntu/).
+- A free docker account must be registered.
+- For convenience, linux 18.04 can be configured to run bash scripts via double-click. However, this is not required for using the app.
 
-# Installing and Uninstalling the App
+# Installing the App
 - Download the project folder from this repositry and unzip to any location on your computer.
 - Run the docker container installation script in the "docker" folder. Signing into your docker account can be done directly during the running of the scripts via keyboard entry if not already done.
 - After setting the paths for the parameter and data export excel files, run the simulation with the preset parameter values. Verify that the resulting plot matches the "goldStandard" image in the project folder.
 - Change parameters, rerun the simulation, and confirm the connections to the parameter input and data export excel files are working. In open office calc, the export file can remain open and is refreshed via file -> reload.
+
+# Uninstalling the App
 - To uninstall, run the uninstallation script in the "containers" folder, and follow the instruction in the prompt to verify that the container has been removed. Then move the project folder to the recycling bin.
 
 # Questions or Issues
