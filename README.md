@@ -1,4 +1,4 @@
-# cv_sim_med_ads_mono_08may2021
+# Introduction
 - Cyclic voltammetry simulation of mediated enzymatic catalysis on an adsorbed monolayer.
 - The app is used in the course "Electrobiotechnology", taught by Prof. Dr. Nicolas Plumeré in the Professorship for Electrobiotechnology at the Technical University of Munich, Campus Straubing (TUMCS). A link to the group webpage can be found [here](https://ebt.cs.tum.de/?lang=en). However, the app is freely available for education and research purposes.
 
