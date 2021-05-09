@@ -1,5 +1,5 @@
 # Minimum Computer Specifications
-- At least 8 GB of RAM
+- At least 8 GB of RAM. However, since docker uses virtualization, and will automatically assign a portion of the RAM to the virtual container, 16 GB of RAM is preferred.
 - CPU equivalent to at least i5 generation 8
 - 50 GB free on the hard drive. Solid state drives are not required but will have better performance.
 - Stable internet connection to be able to download the containers, which can be as large at 9.5 GB (i.e. preferable use DSL cable rather than WiFi).
