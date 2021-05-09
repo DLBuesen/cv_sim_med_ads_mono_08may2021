@@ -12,20 +12,18 @@
 # App Demonstration Video
 - A demo of the app is shown in a [video] (reference) for running the app on a windows 10 operating system.
 
-# How the App can be Useful
-- To simulate the predicted experimental signals for a given set of experimental conditions and dimensional parameters.
-- To explore how the qualitative features of cyclic voltammograms change depending on various conditions.
-- To explore how secondary plots (i.e. plots based on peak currents) can be affected by these changes.
+# Results Obtained
+- Plot of simulated CV for a given set of dimensional parameters, with the option to construct overlay plots. The resulting plot can be saved as .png.
+- The current-potential data points used for the latest simulation are exported to an excel file, which can be copied/pasted into other spreadsheets or graphing programs.
+- Options for plotting non-catalytic, catalytic, or total current.
 
-# Typical Workflow and Results
-- The project folder that is downloaded from here and extracted to the host computer is shared with the app in the container.
-- If applicable, start up prerequiste supporting software (i.e. starting XLaunch).
+# Typical Workflow
+- If applicable, start up prerequiste supporting software (i.e. Docker, XLaunch).
 - Parameters are entered into the included excel file template and saved.
 - When starting the app, the location of the parameter and data export files must be confirmed. This only needs to be done once per session, or when wanting to reset the simulation number back to 1 (i.e. preparing for an overlay plot).
 - The simulation is then performed by pressing a button in the main menu.
-- A plot of the cyclic voltammogram appears. Tools within the graph can be used to read the data points, or to save the figure as a .png
-- The current-potential data for the simulated CV is saved to the data export excel file. The data can then be transferred to another spreadsheet or graphing program (i.e. Origin) for reformatting or for making overlay plots.
-- The program is closed by closing the main window of the simulation.
+- A plot of the cyclic voltammogram appears and the data is also sent to an export excel file.
+- Closing the main window of the simulation also closes the terminal dialogue window and closes the app.
 
 # Operating Systems and Installation
 - The app can be run from Windows 10 or from Ubuntu 18.04 LTS.
