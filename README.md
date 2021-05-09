@@ -7,7 +7,7 @@
 - Redox enzymatic catalysis mediated by a freely diffusing redox mediator.
 - Enzyme immobilized as an adsorbed mediator.
 - Reversible electron transfer at the electrode (Nernst Equation).
-- The mechanism is a ping-pong mechanism with allowance for enyzme inhibition, which was used in the following research [paper] (reference).
+- The mechanism is a ping-pong mechanism with allowance for enyzme inhibition, which was used in the following research [paper](dx.doi.org/10.1021/ac500142e). It is closely related to another [paper](dx.doi.org/10.1021/ja204637d) used for freely diffusing enyzme.
 
 # App Demonstration Video
 - A demo of the app is shown in a [video] (reference) for running the app on a windows 10 operating system.
@@ -16,6 +16,9 @@
 - Plot of simulated CV for a given set of dimensional parameters, with the option to construct overlay plots. The resulting plot can be saved as .png.
 - The current-potential data points used for the latest simulation are exported to an excel file, which can be copied/pasted into other spreadsheets or graphing programs.
 - Options for plotting non-catalytic, catalytic, or total current.
+- Non-catalytic peak current calculation (From Randles-Sevcik equation).
+- Catalytic plateau current prediction (From algebraic expression, subject to specified limiting conditions).
+- Total peak or plateau current based on algebraic expressions.
 
 # Typical Workflow
 - If applicable, start up prerequiste supporting software (i.e. Docker, XLaunch).
