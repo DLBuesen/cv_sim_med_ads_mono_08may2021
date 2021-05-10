@@ -14,13 +14,13 @@ gnome-terminal --tab -- bash -c '\
 	echo "Installing the docker image...";\
 	echo ;\
 	sleep 3;\
-	docker pull dlbuesen/cv_sim_med_ads_mono_08may2021:layer05;\
+	docker pull dlbuesen/mat_mcr:910_10may21;\
 	sleep 3;\
 	echo ;\
 	echo "Confirming installation of the docker image...";\
 	echo ;\
 	sleep 5;\
-	echo "Docker image ID d26f1101205c from repository dlbuesen/cv_sim_med_ads_mono_08may2021 with tag layer05 should appear in the list of images below";\
+	echo "Docker image from repository dlbuesen/mat_mcr with tag 910_10may21 should appear in the list of images below";\
 	echo ;\
 	docker images;\
 	echo ;\
