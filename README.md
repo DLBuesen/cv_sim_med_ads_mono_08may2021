@@ -8,7 +8,7 @@
 - Redox enzymatic catalysis mediated by a freely diffusing redox mediator.
 - Enzyme immobilized as an adsorbed mediator.
 - Reversible electron transfer at the electrode (Nernst Equation).
-- The mechanism is a ping-pong mechanism with allowance for enyzme inhibition, which was used in the following research [paper](dx.doi.org/10.1021/ac500142e). It is closely related to another [paper](dx.doi.org/10.1021/ja204637d) used for freely diffusing enyzme.
+- The mechanism is a ping-pong mechanism with allowance for enyzme inhibition, which was used in the following research [paper](https:dx.doi.org/10.1021/ac500142e). It is closely related to another [paper](https:dx.doi.org/10.1021/ja204637d) used for freely diffusing enyzme.
 
 # App Demonstration Video
 - A demo of the app is shown in a [video] (reference) for running the app on a windows 10 operating system.
