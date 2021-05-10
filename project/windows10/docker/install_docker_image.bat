@@ -21,7 +21,7 @@ timeout 3
 echo Installing the docker container image...
 echo.
 
-docker pull dlbuesen/cv_sim_med_ads_mono_08may2021:layer05
+docker pull dlbuesen/mat_mcr:910_10may21
 
 timeout 3
 echo Listing the installed docker images on the system...
@@ -33,8 +33,8 @@ docker images
 timeout 3
 
 echo Docker image from repository
-echo "dlbuesen/cv_sim_med_ads_mono_08may2021"
-echo with tag "layer05"
+echo "dlbuesen/mat_mcr"
+echo with tag "910_10may21"
 echo should appear in the list of images above
 echo.
 
