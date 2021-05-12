@@ -13,38 +13,40 @@ docker login
 
 timeout 3
 
+echo.
+echo For granting the Docker container access to the screen...
 echo XLaunch should be running with "Disable access control" selected.
 echo.
-echo Enter screen ID assigned in XLaunch (i.e. 0.0), found by hovering over XLaunch icon
+echo Enter the screen number assigned in XLaunch (i.e. "0")
+echo.
 set /p XLaunchScreenID=
+echo.
 
 echo The entered XLaunch display is %XLaunchScreenID%
 
 timeout 3
 
 echo.
-echo Next step is to obtain the IPv4 address needed for Docker to access the screen.
-echo Look for the "IPv4 Address" from "Ethernet adapter vEthernet (WSL)"
-echo i.e. "111.11.111.1"
-echo after pressing any key.
+echo For setting up communication with the Docker container...
 echo.
 
 pause
 
-ipconfig
+netsh interface ipv4 show interfaces
+
+echo Step 1/2: enter the "Idx" number for "vEthernet (WSL)", i.e. "76"
+set /p IdxWSL=
 echo.
 
-echo "Enter the "IPv4 Address" from "Ethernet adapter vEthernet (WSL)"
+netsh interface ipv4 show config name=%IdxWSL%
+echo Step 2/2: Enter the value of the "IP Address"
 echo i.e. "111.11.111.1"
-echo can highlight the entry, "control+c" to "copy"
-echo then right click in the command line to paste
-echo or can also manually type.
 echo.
 
 set /p IPv4=
 
 echo.
-echo The entered IPv4 address is %IPv4%
+echo The entered IP address is %IPv4%
 echo.
 
 :: PAUSE
