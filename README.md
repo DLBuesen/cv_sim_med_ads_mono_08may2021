@@ -11,7 +11,7 @@
 - The mechanism is a ping-pong mechanism with allowance for enyzme inhibition, which was used in the following research [paper](https://pubs.acs.org/doi/10.1021/ja204637d). It is closely related to another [paper](https://pubs.acs.org/doi/10.1021/ja204637d) used for freely diffusing enyzme.
 
 # App Demonstration Video
-- A demo of the app is shown in a [video] (reference) for running the app on a windows 10 operating system.
+- A demo of the app is shown in a [video](https://vimeo.com/549025288) for running the app on a windows 10 operating system.
 
 # Results Obtained
 - Plot of simulated CV for a given set of dimensional parameters, with the option to construct overlay plots. The resulting plot can be saved as .png.
