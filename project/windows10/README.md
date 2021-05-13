@@ -14,7 +14,7 @@
 - This is standard good practice and should always be done before starting any installation or making any major changes to your PC.
 
 # Prerequisite Steps and Software
-- Enable virtualization on your computer via change in bios settings. The following [video](https://www.youtube.com/watch?v=MOuTxfzCvMY) illustrates what is meant by this and shows an example.
+- Enable virtualization on your computer via change in bios settings. The following [video](https://www.youtube.com/watch?v=MOuTxfzCvMY) illustrates what is meant by this and shows an example. Another [video](https://www.youtube.com/watch?v=wlfS0UEMUqc) gives another example for a more complicated case.
 - Install Windows System for Linux version 2 which is described in the following [video](https://www.youtube.com/watch?v=_fntjriRe48).
 - Install Docker Desktop and configure it to run Linux based containers via WSL 2 as described in the following [video](https://www.youtube.com/watch?v=5RQbdMn04Oc).
 - Install VcXsrv Windows X Server (XLaunch) as described in the following [video](https://www.youtube.com/watch?v=YbXDJJE5zsc).
