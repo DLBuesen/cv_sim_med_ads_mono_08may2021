@@ -1,7 +1,7 @@
 # Introduction
 - Cyclic voltammetry simulation of mediated enzymatic catalysis on an adsorbed monolayer.
 - The app is used in the course "Electrobiotechnology", taught by Prof. Dr. Nicolas Plumeré in the Professorship for Electrobiotechnology at the Technical University of Munich, Campus Straubing (TUMCS). A link to the group webpage can be found [here](https://ebt.cs.tum.de/?lang=en). However, the app is freely available for education and research purposes.
-- Docker is used here because our group is currently exploring the possibility of deploying research apps using this platform. An in-depth presentation regarding the deployment of desktop applications via Docker can be found [here](https://www.youtube.com/watch?v=L4nqky8qGm8).
+- Docker is used here because our group is currently exploring the possibility of deploying research apps using this platform. An in-depth presentation on this topic can be found [here](https://www.youtube.com/watch?v=L4nqky8qGm8).
 
 # System Description Highlights
 - Simulation of the experimental cyclic voltammogram signal for a given set of dimensional parameters (concentrations, diffusion rates, catalytic rate constants, etc).
