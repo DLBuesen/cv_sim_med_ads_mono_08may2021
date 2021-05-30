@@ -12,6 +12,6 @@ gnome-terminal --tab -- bash -c '\
 	docker login;\
 	echo ;\
 	sleep 3;\
-	xhost + && docker run -ti -e DISPLAY=$DISPLAY -p 127.0.0.1:8000:8000 -v /tmp/.X11-unix:/tmp/.X11-unix -v $XAUTH:/root/.Xauthority -v $(pwd):/home/fenics/shared -v $(pwd):/project -w / dlbuesen/mat_mcr:910_10may21 ./launchApp.sh'
+	xhost + && docker run --rm -ti -e DISPLAY=$DISPLAY -p 127.0.0.1:8000:8000 -v /tmp/.X11-unix:/tmp/.X11-unix -v $XAUTH:/root/.Xauthority -v $(pwd):/home/fenics/shared -v $(pwd):/project -w / dlbuesen/mat_mcr:910_10may21 ./launchApp.sh'
 
 
